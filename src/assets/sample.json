@@ -1,0 +1,64 @@
+[{
+        "name": "Maps",
+        "desc": "Below are list of Maps",
+        "items": [{
+                "name": "Google Map",
+                "desc": "This is example of Google Map"
+            },
+            {
+                "name": "Tango Map",
+                "desc": "This is example of Open Street Map"
+            },
+            {
+                "name": "Yandex Map",
+                "desc": "This is example of Yandex Map"
+            },
+            {
+                "name": "Overview Map",
+                "desc": "This is example of Overview Map"
+            }
+        ]
+    },
+    {
+        "name": "Manage Entities",
+        "desc": "Below are list of Manage Entities",
+        "items": [{
+                "name": "Sites",
+                "desc": "This is example of Sites"
+            },
+            {
+                "name": "Targets",
+                "desc": "This is example of Targets"
+            },
+            {
+                "name": "Competitors",
+                "desc": "This is example of Competitors"
+            },
+            {
+                "name": "Prospects",
+                "desc": "This is example of Prospects"
+            },
+            {
+                "name": "Shopping Centers",
+                "desc": "This is example of Shopping Centers"
+            },
+            {
+                "name": "Trade Areas",
+                "desc": "Trade Areas",
+                "items": [{
+                        "name": "Restore TA",
+                        "desc": "This is example of Restore TA"
+                    },
+                    {
+                        "name": "Edit Site TA",
+                        "desc": "This is example of Edit Site TA"
+                    },
+                    {
+                        "name": "Edit Territory TA",
+                        "desc": "This is example of Edit Territory TA"
+                    }
+                ]
+            }
+        ]
+    }
+]

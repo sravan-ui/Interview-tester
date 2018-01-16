@@ -1,0 +1,23 @@
+<!--<ul>
+    <li *ngFor="let node of treeData">
+        {{node.name}}
+        <app-rendertable [treeData]="node.items"></app-rendertable>
+    </li>
+</ul>-->
+<table class="table table-striped">
+    <thead>
+        <!--<tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+        </tr>-->
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of treeData">
+            <td (click)="onNameCliked(true)">{{item.name}}</td>
+            <td (click)="onDescCliked(true)">{{item.desc}}</td>
+            <div *ngIf="showtable">
+                <app-rendertable [treeData]="item.items"></app-rendertable>
+            </div>
+        </tr>
+    </tbody>
+</table>
